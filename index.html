@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Maison Nails — студия маникюра</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <div class="logo">Maison Nails</div>
+
+    <div class="header-socials">
+      <a class="telegram" href="https://t.me/username" target="_blank">Telegram</a>
+      <a class="whatsapp" href="https://wa.me/79991234567" target="_blank">WhatsApp</a>
+      <a class="max" href="https://max.ru/username" target="_blank">MAX</a>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-text">
+      <h1>Красивый маникюр<br>без лишнего</h1>
+      <p>Спокойная атмосфера и аккуратная работа</p>
+
+      <div class="hero-buttons">
+        <button class="btn service-btn" onclick="scrollToContacts()">Записаться</button>
+        <a href="#gallery" class="btn outline">Наши работы</a>
+      </div>
+    </div>
+
+    <!-- ГЛАВНОЕ ФОТО -->
+    <img src="images/hero/hero.jpg" alt="Маникюр студия">
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services">
+  <h2>Услуги</h2>
+
+  <div class="services-grid">
+    <div class="service-card">
+      <img src="images/services/manicure.jpg" alt="Классический маникюр">
+      <h3>Классический маникюр</h3>
+      <span class="price">от 1 300 ₽</span>
+      <button class="btn service-btn" onclick="scrollToContacts()">Записаться</button>
+    </div>
+
+    <div class="service-card">
+      <img src="images/services/gel.jpg" alt="Гелевое покрытие">
+      <h3>Гелевое покрытие</h3>
+      <span class="price">от 2 000 ₽</span>
+      <button class="btn service-btn" onclick="scrollToContacts()">Записаться</button>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="gallery">
+  <h2>Наши работы</h2>
+
+  <div class="gallery-grid">
+    <img src="images/gallery/work1.jpg" alt="">
+    <img src="images/gallery/work2.jpg" alt="">
+    <img src="images/gallery/work3.jpg" alt="">
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-inner">
+
+    <div>
+      <strong>Maison Nails</strong>
+      <p>Студия маникюра</p>
+      <p>© 2026 Все права защищены</p>
+    </div>
+
+    <div>
+      <p>Москва, ул. Современная</p>
+      <p>+7 (999) 999-99-99</p>
+    </div>
+
+    <div class="socials" id="contacts">
+      <a class="telegram" href="https://t.me/username" target="_blank">Telegram</a>
+      <a class="whatsapp" href="https://wa.me/79991234567" target="_blank">WhatsApp</a>
+      <a class="max" href="https://max.ru/username" target="_blank">MAX</a>
+    </div>
+
+  </div>
+
+  <button class="to-top" onclick="scrollToTop()">↑</button>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
